@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Modal from '../../components/UI/Modal/Modal';
 import Aux from '../Aux/Aux';
 
-const withErrorHander = (WrappedComponent, axios) => {
+const withErrorHandler = (WrappedComponent, axios) => {
 
     return (props) => {
         return class extends Component {
@@ -40,4 +40,4 @@ const withErrorHander = (WrappedComponent, axios) => {
     }
 };
 
-export default withErrorHander;
+export default withErrorHandler;
