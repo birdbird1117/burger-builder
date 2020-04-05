@@ -4,8 +4,8 @@ import CheckoutSummary from '../../components/Order/CheckoutSummary/CheckoutSumm
 class Checkout extends Component {
     state = {
         ingredients: {
-            salad: 100,
-            cheese: 1000
+            salad: 1,
+            cheese: 1
         }
     }
     render() {
